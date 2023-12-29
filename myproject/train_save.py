@@ -1,4 +1,7 @@
+MODELPATH = 'data/model.txt'
+
+
 def train(value):
-    with open('data/model.txt', 'w') as file:
+    with open(MODELPATH, 'w') as file:
         file.write(value)
 
